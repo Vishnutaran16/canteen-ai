@@ -1,0 +1,6 @@
+{
+  "name": "Smart Canteen",
+  "description": "A modern college canteen food ordering and management system with advance booking, live QR tokens, admin order tracking, sales analytics, and AI-powered food demand prediction.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center Cloche / Food Plate + Sparkle (Safe Zone within 66dp) -->
+    <!-- Base Plate -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,72 L82,72 C83.1,72 84,72.9 84,74 C84,75.1 83.1,76 82,76 L26,76 C24.9,76 24,75.1 24,74 C24,72.9 24.9,72 26,72 Z" />
+    
+    <!-- Cloche Dome -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,34 C41.3,34 30.7,43.5 29.2,56 L78.8,56 C77.3,43.5 66.7,34 54,34 Z" />
+    
+    <!-- Food Rim -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M27,58 L81,58 C82.1,58 83,58.9 83,60 C83,61.1 82.1,62 81,62 L27,62 C25.9,62 25,61.1 25,60 C25,58.9 25.9,58 27,58 Z" />
+    
+    <!-- Steam / Warmth Lines -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M46,26 C45,23 48,21 46,18 M54,24 C53,21 56,19 54,16 M62,26 C61,23 64,21 62,18" />
+    
+    <!-- Cloche Handle Top -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M54,30 C56.2,30 58,28.2 58,26 C58,23.8 56.2,22 54,22 C51.8,22 50,23.8 50,26 C50,28.2 51.8,30 54,30 Z" />
+
+    <!-- Smart AI Sparkle / Lightning Badge on the bottom right -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M70,44 L74,36 L70,36 L72,28 L64,38 L68,38 Z" />
+</vector>
